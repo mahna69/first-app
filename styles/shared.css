@@ -12,7 +12,7 @@ body{
 
 .main-header {
     width: 100%;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     background: #5BB318;
     position: fixed;
     z-index: 1;
@@ -23,7 +23,7 @@ body{
 }
 .main-header__logo {
     color: #C4FB6D;
-    font-size: 22px;
+    font-size: 1.4rem;
     text-decoration: none;
 }
 .main-nav {
@@ -39,7 +39,7 @@ body{
 } 
 .main-nav__item {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 .main-nav__item a {
     text-decoration: none;
@@ -52,7 +52,7 @@ color:#ffffff;
 
 .main-nav__item--account a {
     background: #ecfdd148;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     border-radius: 8px;
 }
 
@@ -63,7 +63,7 @@ color:#ffffff;
 
 .main-footer {
     background: #424242;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .main-footer__items {
@@ -75,7 +75,7 @@ color:#ffffff;
 
 .main-footer__item {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main-footer__item a {

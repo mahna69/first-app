@@ -1,5 +1,5 @@
 main {
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 .background {
@@ -13,7 +13,7 @@ main {
 
 .plan {
     width: 60%;
-    margin: 16px 0;
+    margin: 1rem 0;
     border: 1px solid #5BB318;
     border-left: none;
     border-radius: 8px;
@@ -26,26 +26,27 @@ main {
     text-decoration: none;
     color: #3e8805;
     display: block;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .plan__badge {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 20px;
-    font-size: 15px;
+    margin: 1.4rem;
+    font-size: 1rem;
     background: #5BB318;
     color: #ffffff;
-    padding: 2px 8px;
+    padding: 0.1rem 0.5rem;
 
 }
 
 .plan__info {
     border: 1px solid #5BB318;
-    border-radius: 8px;
+    border-radius: 0.5rem;
+    font-size: 1rem;
     background: #ffffff;
-    padding: 16px;
+    padding: 1rem;
 }
 
 .clearfix{
