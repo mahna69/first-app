@@ -100,3 +100,38 @@ text-align: center;
     font-size: 1.2rem;
 }
 
+.modal {
+    position: fixed;
+    display: none;
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 16px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.modal__title {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.modal__actions {
+    text-align: center;
+}
+
+.modal__action {
+    border: 1px solid #5BB318;
+    background: #5BB318;
+    text-decoration: none;
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.modal__action--negative {
+    background: #d81b60;
+    border: 1px solid #d81b60;
+}
