@@ -1,0 +1,16 @@
+main {
+    padding-top: 2rem;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #5BB318;
+}
+
+.order-form input {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    font: inherit;
+}
