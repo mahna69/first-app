@@ -1,3 +1,39 @@
 main {
     padding-top: 32px;
 } 
+
+.testimonial {
+    font-size: 20px;
+    margin: 48px;
+}
+
+.testimonial:first-of-type {
+    margin-top: 96px;
+}
+
+.testimonial__info {
+    text-align: right;
+    padding: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#customer-2.testimonial {
+    text-align: right;
+}
+
+.testimonial__name {
+    margin: 3px;
+    color: #627FFF;
+}
+
+.testimonial__subtitle {
+    font-size: 18px;
+    margin: 0;
+    color: #757575;
+}
+
+.testimonail__text {
+    margin: 3px;
+    color: #212121;
+}
