@@ -1,7 +1,14 @@
 #overview {
     width: 100%;
     height: 600px;
-background: url('../images/bg-image.jpg') center/cover no-repeat;
+/*background: url('../images/bg-image.jpg') center/cover no-repeat;*/
+/*background: linear-gradient(180deg,purple,transparent);*/
+/*background: radial-gradient(circle at 20% 50% ,purple,green);*/
+background: 
+linear-gradient(to top,rgba(0,0,0,0.6),transparent),
+url('../images/bg-image.jpg') center/cover no-repeat,
+#c5cfff
+;
 }
 
 .section-title {
