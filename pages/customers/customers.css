@@ -27,11 +27,11 @@ main {
 }
 
 .testimonial__info {
-    width: 20%;
     text-align: right;
     padding: 0.9rem;
     display: inline-block;
     vertical-align: middle;
+    width: 20%;
 }
 
 #customer-2.testimonial {

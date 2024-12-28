@@ -12,6 +12,19 @@ body {
     font-family: 'IRANSansWeb';
 }
 
+.backdrop {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0;
+
+}
+
 .main-header {
     width: 100%;
     background: #627fff;
@@ -62,7 +75,7 @@ body {
 .main-nav__item--account a {
     background: #dae0ff;
     color: #627fff;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     border-radius: 8px;
 }
 
@@ -74,7 +87,7 @@ body {
 
 .main--footer {
     background: #424242;
-    padding: 32px;
+    padding: 2rem;
 }
 
 .main--footer__links {
@@ -86,7 +99,7 @@ body {
 
 .main--footer__link {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main--footer__link a {
