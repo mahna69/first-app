@@ -3,7 +3,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="../../styles/shared.css">
-    <link rel="stylesheet" href="./customers.css">
+    <link rel="stylesheet" href="./orders.csss">
     <title>web-app</title>
 </head>
 
@@ -17,7 +17,7 @@
         <nav class="main-nav">
             <ul class="main-nav__items">
                 <li class="main-nav__item">
-                    <a href="./index.html">مشتریان</a>
+                    <a href="../customers/index.html">مشتریان</a>
                 </li>
                 <li class="main-nav__item">
                     <a href="../plans/index.html">تعرفه ها</a>
@@ -29,30 +29,14 @@
         </nav>
     </header>
     <main>
-        <div>
-<div class="testimonial" id="customer-1">
-    <div class="testimonial__image-container">
-        <img src="../../images/customer-image.jpg" class="customer-image">
-    </div>
-    <div class="testimonial__info">
-        <h1 class="testimonial__name">نام مشتری</h1>
-        <h2 class="testimonial__subtitle">عنوان شغلی</h2>
-        <p class="testimonail__text">نظر مشتری</p>
-    </div>
-    
-</div>
-<div class="testimonial" id="customer-2">
-    <div class="testimonial__info">
-        <h1 class="testimonial__name">نام مشتری</h1>
-        <h2 class="testimonial__subtitle">عنوان شغلی</h2>
-        <p class="testimonail__text">نظر مشتری</p>
-    </div>
-    <div class="testimonial__image-container">
-        <img src="../../images/customer-image.jpg" class="customer-image">
-    </div>
-</div>
-        </div>
-        
+<h1 class="form-title">ثبت سفارش</h1>
+<form class="order-form">
+<input type="text" id="first-name" placeholder="نام">
+<input type="text" id="last-name" placeholder="نام خانوادگی">
+<input type="text" id="email" placeholder="ایمیل">
+<input type="password" id="password" placeholder="رمز عبور">
+<button type="submit">ثبت سفارش</button>
+</form>
     </main>
     <footer class="main--footer">
         <nav>
